@@ -12,7 +12,7 @@ import {
   type InsertOrderItem,
   type OrderItem,
   type InsertOrderWithItems,
-} from "@shared/schema";
+} from "./schema";
 import { db } from "./db";
 import { eq, desc, and, sql } from "drizzle-orm";
 

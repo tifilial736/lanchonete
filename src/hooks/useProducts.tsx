@@ -1,6 +1,6 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { apiRequest } from '@/lib/queryClient';
-import { Product, InsertProduct } from '@shared/schema';
+import { Product, InsertProduct } from '../../lib/schema';
 
 export function useProducts() {
   return useQuery<Product[]>({
